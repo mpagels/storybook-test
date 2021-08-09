@@ -1,5 +1,17 @@
 .App {
   text-align: center;
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 50px 1fr 50px;
+}
+
+.App__Header,
+.App__Footer {
+  background-color: teal;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-logo {
